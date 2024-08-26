@@ -1,0 +1,71 @@
+.WidgetLg{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,0.1);
+}
+.WidgetLg-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.WidgetLg-table{
+    width: 100%;
+    border-spacing: 20px;
+}
+.WidgetLg-tr{
+
+}
+.WidgetLg-th{
+    text-align: left;
+}
+
+.WidgetLg-th:last-child{
+    padding-left: 3.5rem;
+}
+.WidgetLg-tr{
+
+}
+.WidgetLg-user{
+    display: flex;
+    align-items: center;
+}
+.WidgetLg-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.WidgetLg-name{
+
+}
+.WidgetLg-date,.WidgetLg-amount{
+    font-weight: 300;
+}
+.WidgetLg-amount{
+
+}
+.WidgetLg-status{
+
+}
+
+.WidgetLg-button{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.WidgetLg-buttonApproved{
+    color: #3db077;
+    background-color: #e5faf2;
+}
+
+.WidgetLg-buttonDeclined{
+    color: #d95087;
+    background-color: #e5faf1;
+}
+
+.WidgetLg-buttonPending{
+    color: #2a7ade;
+    background-color: #ebf1fe;
+}
+
